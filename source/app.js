@@ -1,10 +1,15 @@
 import React from 'react';
 import {Text} from 'ink';
+import BigText from 'ink-big-text';
+import Gradient from 'ink-gradient';
 
 export default function App() {
 	return (
-		<Text>
-			GM, <Text color="green">Philippines!</Text>
-		</Text>
+		<>
+			<Gradient name="mind">
+				<BigText text="web3ph cli" font="chrome" />
+			</Gradient>
+			<Text color="blue">✨ Kumusta from Philippines!✨</Text>
+		</>
 	);
 }
